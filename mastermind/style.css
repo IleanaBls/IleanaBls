@@ -1,0 +1,220 @@
+html {
+    background-color: black
+}
+
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    color: #B784FA;
+    text-align: center;
+    margin: 0;
+}
+
+#cercles {
+    display: flex;
+    height: 20px;
+    width:auto;
+    justify-content: center;
+}
+
+#moncercleviolet {
+    background:#a003c7;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #a003c7;
+    margin-right: 1%
+    
+}
+
+#moncerclerouge {
+    background:#f30c2b;
+    border-radius:50%;
+    width: 20px;
+    height:20px;
+    border:2px solid #f30c2b;
+    margin-right: 1%
+}
+
+#moncerclerose {
+    background:#f104cd;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #f104cd;
+    margin-right: 1%
+}
+
+#moncerclebleu {
+    background:#0e18d7;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #0e18d7;
+    margin-right: 1%
+}
+
+#moncerclevert {
+    background: #21E809;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #21E809;
+    margin-right: 1%
+}
+
+#moncerclejaune {
+    background: #FDFA41;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #FDFA41;
+    margin-right: 1%
+}
+
+#moncercleorange {
+    background: #F86404;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #F86404;
+    margin-right: 1%
+}
+
+#moncerclemarron {
+    background: #885008;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    border:2px solid #885008;
+    margin-right: 1%
+}
+
+#explication {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.2em;
+    color:#B784FA;
+    text-align: center;
+}
+
+p {
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    color:#B784FA;
+    text-align: center;
+}
+
+.start-game {
+    background-color: black;
+    color:#B784FA;
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size : 1em;
+    border: 2px solid #B784FA;
+    border-radius: 10px;
+    padding: 1%;
+    transition-duration: 0.4s;
+    margin-top: 5%;
+}
+
+.start-game:hover {
+    background-color: #B784FA;
+    color: black
+}
+
+#play {
+    color: #B784FA;
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+#todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#color {
+    width: 40%;
+    background-color: black;
+    border: 2px solid #B784FA;
+    border-radius: 5px;
+    height: 2%;
+    color: #B784FA;
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.play {
+    background-color: black;
+    color:#B784FA;
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size : 1em;
+    border: 2px solid #B784FA;
+    border-radius: 10px;
+    
+    transition-duration: 0.4s;
+    margin-top: 1%;
+}
+
+.play:hover {
+    background-color: #B784FA;
+    color: black
+}
+
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%
+
+}
+
+#container {
+    display: flex;
+    align-items: flex-start;
+    height: 50%;
+    padding: 1%;
+    justify-content: center;
+
+}
+
+#selection {
+    
+    height: 80%;
+    width: 45%;
+    margin-top: 3%;
+    margin-right: 1%;
+    padding: 1%;
+    display: flex;
+    
+}
+
+#score {
+    
+    height: 80%;
+    width: 45%;
+    margin-top: 3%;
+    padding: 1%;
+    display: flex;
+}

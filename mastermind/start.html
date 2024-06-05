@@ -1,0 +1,41 @@
+<!-- En cours d'adaptation avec la partie HTML, le but initial était de réaliser un jeu s'inspirant du mastermind -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+
+    <title>Mastermind</title>
+</head>
+<body>
+    <h1>MASTERMIND</h1>
+    
+    <div id="cercles">
+        <div id="moncercle1"></div>
+        <div id="moncercle2"></div>
+        <div id="moncercle3"></div>
+        <div id="moncercle4"></div>
+    </div>
+
+    <div id="explication">
+        <h2>
+            But du jeu : 
+        </h2>
+        <p>
+            Deviner la combinaison secrète de 4 couleurs parmis les 8 couleurs possibles <br>
+            (bleu, rouge, vert, jaune, orange, violet, rose, marron). <br>
+            Pour y parvenir, tu peux tester différentes combinaisons. <br>
+            Après chacune de tes propositions tu auras des indices pour t'indiquer la bonne voie.<br>
+            Les indices seront sous la forme suivante : 1,2. <br>
+            Le premier chiffre indique le nombre de couleurs correctes et bien positionnées, <br>
+            le deuxième indique le nombre de couleurs correctes mais mal positionnées.
+        </p>
+        <button onclick = 'location.href = "mastermind.html"'class="start-game" type="button">Clique pour commencer</button>
+    </div>
+    
+    
+</body>
+</html>

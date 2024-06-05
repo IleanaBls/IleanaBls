@@ -1,0 +1,51 @@
+<!-- En cours d'adaptation avec la partie HTML, le but initial était de réaliser un jeu s'inspirant du mastermind -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>MASTERMIND</h1>
+    
+    <div id="cercles">
+        <div id="moncercleviolet"></div>
+        <div id="moncerclerouge"></div>
+        <div id="moncerclerose"></div>
+        <div id="moncerclebleu"></div>
+    </div>
+
+    <div id="play">
+        <div id="todo">
+            <p>Ecris 4 couleurs : </p>
+            <input type = "text" id="color" />
+            <button class = "play" type = "button">Jouer</button>
+        </div>
+        <div id="choices">
+            <div id="moncerclerose"></div>
+            <div id="moncerclemarron"></div>
+            <div id="moncercleviolet"></div>
+            <div id="moncerclejaune"></div>
+            <div id="moncerclebleu"></div>
+            <div id="moncercleorange"></div>
+            <div id="moncerclevert"></div>
+            <div id="moncerclerouge"></div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="selection">
+            
+        </div>
+
+        <div id="score">
+
+        </div>
+    </div>
+    
+    <script src = "mastermind.js"></script>
+</body>
+</html>
