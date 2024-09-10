@@ -1,0 +1,13 @@
+{
+  "name": "emma-lyon-session-katas-1-19-7-24-ileanabls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+  
+}
