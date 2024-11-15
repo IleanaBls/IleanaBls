@@ -7,10 +7,10 @@
 
 ## Mes technos préférées sont : 
 
- -JS 
- -Nodejs
- -Laravel 
- -Tailwind
+### Typescript
+### Next.js
+### React 
+### Laravel
 
 ## Mes prochains objectifs : 
  
